@@ -1,0 +1,26 @@
+.hideAtFirst{
+    visibility: hidden;
+    /* display: none; */
+}
+
+.optionHide{
+  display: none;
+}
+
+header {
+  background: url(road1.jpg) no-repeat center center;
+  background-size: cover;color: #d9e0e2;
+  position: relative;
+  height: 420px;
+}
+
+.blackText{
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
