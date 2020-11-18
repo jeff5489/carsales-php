@@ -1,0 +1,65 @@
+CREATE DATABASE carSales;
+
+use carSales;
+
+CREATE TABLE cars (
+    inventoryId varchar(255),
+    manYear varchar(255),
+    make varchar(255),
+    model varchar(255),
+    mileage varchar(255),
+    color varchar(255),
+    carCondition varchar(255),
+    vin varchar(255),
+    notes varchar(255)
+);
+
+CREATE TABLE employees (
+    userName varchar(255),
+    pass varchar(255),
+    positionTitle varchar(255)
+);
+
+INSERT INTO employees
+VALUES (
+	"john",
+    "pass",
+    "admin"
+);
+
+INSERT INTO cars
+VALUES (
+	"1",
+    "2000",
+    "Toyota",
+    "Corolla",
+    "100000",
+    "Black",
+    "Good",
+    "123456789",
+    "Its a good car."
+);
+
+VALUES (
+	"3",
+    "2001",
+    "Toyota",
+    "Corolla",
+    "200000",
+    "Gray",
+    "Bad",
+    "123459789",
+    "Its a bad car."
+);
+
+VALUES (
+	"3",
+    "2002",
+    "Ford",
+    "F-150",
+    "200000",
+    "White",
+    "Excellent",
+    "123459789",
+    "Its a excellent car."
+);
